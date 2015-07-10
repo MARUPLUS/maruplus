@@ -3,7 +3,7 @@
 	{
 		public $startTime;
 		public $endTime;
-		public $can_display;
+		public $Display;
 	
 		public function canDisplay()
 		{
@@ -28,7 +28,7 @@
 	$banner = new banner;
 	$banner->startTime = new DateTime('2014-08-10T12:00:00+0900');
 	$banner->endTime = new DateTime('2015-07-11T12:00:00+0900');
-	$banner->can_display = $banner->canDisplay();
+	$banner->display = $banner->canDisplay();
 
 	print_r($banner);
 
