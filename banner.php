@@ -3,7 +3,7 @@
 	{
 		public $startTime;
 		public $endTime;
-		public $Display;
+		public $display;
 	
 		public function canDisplay()
 		{
